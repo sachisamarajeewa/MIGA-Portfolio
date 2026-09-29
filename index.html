@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Migara Udayanaga — Garment Technologist & Quality Specialist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Top Progress Bar -->
+  <div id="loader" class="loader">
+    <div class="loader-bar" id="loaderBar"></div>
+  </div>
+
+  <!-- Background Smooth Scroll Animation Canvas -->
+  <div class="canvas-container" id="canvasContainer">
+    <canvas id="canvas"></canvas>
+    <div class="canvas-overlay"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">H.H.Migara</a>
+      <nav class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#capabilities" class="nav-link">Capabilities</a>
+        <a href="#process" class="nav-link">Workflow</a>
+        <a href="#referees" class="nav-link">Referees</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <a href="mailto:migarau82@gmail.com" class="btn-pill">
+        <span>Get in touch</span>
+        <span class="btn-arrow-circle">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+            <path d="M2.5 6H9.5M9.5 6L6 2.5M9.5 6L6 9.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Scrollable Content Overlay -->
+  <main class="content-wrapper">
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="hero-shell">
+        <div class="hero-top-grid">
+          <div class="hero-title-col">
+            <span class="eyebrow">Hey, I'm</span>
+            <h1 class="hero-title">Migara<br>Udayanaga</h1>
+          </div>
+          <div class="hero-quote-col glass-card">
+            <h2 class="quote-title">Precision in every stitch,<br>fit & technical detail.</h2>
+            <p class="quote-sub">Garment Technologist with 22+ years delivering flawless fit, technical pack precision,
+              and global brand quality standards.</p>
+          </div>
+        </div>
+
+        <!-- 4 Services / Pillars at Bottom of Hero -->
+        <div class="hero-pillars glass-card">
+          <div class="pillar-item">
+            <span class="pillar-num">#01</span>
+            <span class="pillar-name">Garment Technology</span>
+          </div>
+          <div class="pillar-item">
+            <span class="pillar-num">#02</span>
+            <span class="pillar-name">Pattern & Fit Precision</span>
+          </div>
+          <div class="pillar-item">
+            <span class="pillar-num">#03</span>
+            <span class="pillar-name">Nominated QA Specialist</span>
+          </div>
+          <div class="pillar-item">
+            <span class="pillar-num">#04</span>
+            <span class="pillar-name">Global Brand Compliance</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Bar (Metrics) -->
+    <section class="stats-section">
+      <div class="stats-container glass-card">
+        <div class="stat-col">
+          <div class="stat-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L14.4 9.6L22 12L14.4 14.4L12 22L9.6 14.4L2 12L9.6 9.6L12 2Z" />
+            </svg>
+          </div>
+          <span class="stat-num">22+</span>
+          <span class="stat-label">YEARS EXPERIENCE</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-col">
+          <div class="stat-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" />
+            </svg>
+          </div>
+          <span class="stat-num">20+</span>
+          <span class="stat-label">GLOBAL BRANDS HANDLED</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-col">
+          <div class="stat-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94A5.01 5.01 0 0 0 11 15.9V19H7v2h10v-2h-4v-3.1c1.8-.46 3.19-1.92 3.61-3.96C19.08 11.63 21 9.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z" />
+            </svg>
+          </div>
+          <span class="stat-num">5</span>
+          <span class="stat-label">PREMIER APPAREL GROUPS</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-col">
+          <div class="stat-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+            </svg>
+          </div>
+          <span class="stat-num">100%</span>
+          <span class="stat-label">BUYER FIT COMPLIANCE</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brands / Social Proof Section -->
+    <section class="brands-section" id="about">
+      <div class="brands-container glass-card">
+        <span class="brands-label">Global Brands & Retailers Handled</span>
+        <div class="brands-grid">
+          <div class="brand-item">
+            <span class="brand-accent-tag">★</span>
+            <span class="brand-name">ZARA</span>
+          </div>
+          <div class="brand-item">
+            <span class="brand-accent-tag">★</span>
+            <span class="brand-name">SKIMS</span>
+          </div>
+          <div class="brand-item">
+            <span class="brand-accent-tag">★</span>
+            <span class="brand-name">H&M</span>
+          </div>
+          <div class="brand-item">
+            <span class="brand-accent-tag">★</span>
+            <span class="brand-name">VICTORIA'S SECRET</span>
+          </div>
+          <div class="brand-item">
+            <span class="brand-accent-tag">★</span>
+            <span class="brand-name">ACTRATEX</span>
+          </div>
+          <div class="brand-item">
+            <span class="brand-accent-tag">★</span>
+            <span class="brand-name">MARKS & SPENCER</span>
+          </div>
+          <div class="brand-item">
+            <span class="brand-accent-tag">★</span>
+            <span class="brand-name">ABERCROMBIE & FITCH</span>
+          </div>
+          <div class="brand-item">
+            <span class="brand-accent-tag">★</span>
+            <span class="brand-name">NEXT</span>
+          </div>
+          <div class="brand-item">
+            <span class="brand-accent-tag">★</span>
+            <span class="brand-name">TOPSHOP</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Experience Section -->
+    <section class="featured-work-section" id="experience">
+      <div class="section-shell">
+        <div class="section-header-row">
+          <div class="header-left">
+            <span class="section-eyebrow">CAREER MILESTONES</span>
+            <h2 class="section-title-large">WORK EXPERIENCE</h2>
+          </div>
+          <a href="mailto:migarau82@gmail.com" class="explore-link">
+            <span>REQUEST FULL DOSSIER</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M7 17L17 7M17 7H7M17 7V17" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="featured-cards-grid">
+          <!-- Card 1: T&FG Company -->
+          <div class="featured-card glass-card">
+            <div class="featured-card-visual">
+              <img src="assets/exp-1.jpg" alt="Garment Technologist at T&FG Company" class="featured-card-img"
+                loading="lazy">
+              <div class="card-ambient-shadow"></div>
+            </div>
+            <div class="featured-card-content">
+              <div class="card-meta">
+                <span class="card-period">2019 NOV — PRESENT</span>
+                <h3 class="featured-work-title">Garment Technologist<br>T&FG Company</h3>
+                <span class="featured-work-tags">SKIMS • ZARA • ABERCROMBIE • TORRID • LA SENZA</span>
+                <p class="exp-summary">Handling Bottoms, Briefs, Bras, Fashion & Night Dresses. Leading fit sessions
+                  with models, tech pack reviews, and factory measurement handovers.</p>
+              </div>
+              <div class="card-action-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M7 17L17 7M17 7H7M17 7V17" />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Hirdaramani Group -->
+          <div class="featured-card glass-card">
+            <div class="featured-card-visual">
+              <img src="assets/exp-2.jpg" alt="Nominated QA Executive at Hirdaramani Group" class="featured-card-img"
+                loading="lazy">
+              <div class="card-ambient-shadow"></div>
+            </div>
+            <div class="featured-card-content">
+              <div class="card-meta">
+                <span class="card-period">2012 — 2018</span>
+                <h3 class="featured-work-title">Quality Executive (Nominated QA)<br>Hirdaramani Group</h3>
+                <span class="featured-work-tags">H&M NOMINATED QA • TESCO • SUB-FACTORIES</span>
+                <p class="exp-summary">Served as H&M Nominated QA across Hirdaramani Vavuniya and sub-factories,
+                  supervising quality systems and ensuring compliance with buyer AQL benchmarks.</p>
+              </div>
+              <div class="card-action-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M7 17L17 7M17 7H7M17 7V17" />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Brandix & Hela Clothing -->
+          <div class="featured-card glass-card">
+            <div class="featured-card-visual">
+              <img src="assets/exp-3.jpg" alt="Migara Udayanaga in Textile Manufacturing" class="featured-card-img"
+                loading="lazy">
+              <div class="card-ambient-shadow"></div>
+            </div>
+            <div class="featured-card-content">
+              <div class="card-meta">
+                <span class="card-period">2002 — 2012</span>
+                <h3 class="featured-work-title">Quality In-Charge & Supervisor<br>Brandix & Hela Clothing</h3>
+                <span class="featured-work-tags">VICTORIA'S SECRET • M&S • H&M • PP MEETINGS</span>
+                <p class="exp-summary">Quality in-charge for Victoria's Secret and M&S at Brandix. Conducted PP
+                  meetings, pattern grading audits, mass production feasibility, and factory handover files at Hela.</p>
+              </div>
+              <div class="card-action-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M7 17L17 7M17 7H7M17 7V17" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Capabilities & Education Section -->
+    <section class="capabilities-section" id="capabilities">
+      <div class="section-shell">
+        <div class="capabilities-grid-layout">
+          <!-- Left: Core Capabilities -->
+          <div class="capabilities-col glass-card">
+            <div class="block-header">
+              <span class="section-eyebrow">EXPERTISE & SKILLS</span>
+              <h2 class="block-title">CORE TECHNICAL CAPABILITIES</h2>
+            </div>
+            <div class="capabilities-items-grid">
+              <div class="capability-item">
+                <div class="cap-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 19l7-7 3 3-7 7-3-3z" />
+                    <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
+                  </svg>
+                </div>
+                <div class="cap-text">
+                  <h3 class="cap-title">GARMENT TECHNOLOGY & FITTING</h3>
+                  <p class="cap-desc">Checking patterns, reviewing technical packs, and participating in live model FIT
+                    sessions to optimize garments for mass production.</p>
+                </div>
+              </div>
+
+              <div class="capability-item">
+                <div class="cap-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M9 12l2 2 4-4" />
+                  </svg>
+                </div>
+                <div class="cap-text">
+                  <h3 class="cap-title">QUALITY ASSURANCE & AQL AUDITING</h3>
+                  <p class="cap-desc">Leading comprehensive QA/QC systems, conducting in-line checkpoints and final
+                    inspections conforming to rigorous international standards.</p>
+                </div>
+              </div>
+
+              <div class="capability-item">
+                <div class="cap-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                  </svg>
+                </div>
+                <div class="cap-text">
+                  <h3 class="cap-title">NOMINATED QA FOR GLOBAL BUYERS</h3>
+                  <p class="cap-desc">Directly nominated by H&M as accredited QA authority to sign off production lines,
+                    audit sub-factories, and approve shipments.</p>
+                </div>
+              </div>
+
+              <div class="capability-item">
+                <div class="cap-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                    <line x1="16" y1="13" x2="8" y2="13" />
+                    <line x1="16" y1="17" x2="8" y2="17" />
+                  </svg>
+                </div>
+                <div class="cap-text">
+                  <h3 class="cap-title">TECH PACK & SAMPLE APPROVALS</h3>
+                  <p class="cap-desc">Detailed scrutiny of buyer technical specifications, measurement charts, material
+                    tolerances, and sample construction integrity.</p>
+                </div>
+              </div>
+
+              <div class="capability-item">
+                <div class="cap-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                    <polyline points="2 17 12 22 22 17" />
+                    <polyline points="2 12 12 17 22 12" />
+                  </svg>
+                </div>
+                <div class="cap-text">
+                  <h3 class="cap-title">PRE-PRODUCTION (PP) MEETINGS</h3>
+                  <p class="cap-desc">Aligning merchandisers, QC teams, workshop leaders, and technicians on technical
+                    procedures and critical processing points before bulk cut.</p>
+                </div>
+              </div>
+
+              <div class="capability-item">
+                <div class="cap-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                  </svg>
+                </div>
+                <div class="cap-text">
+                  <h3 class="cap-title">FACTORY HANDOVER & MENTORSHIP</h3>
+                  <p class="cap-desc">Creating authoritative Style Handover Files, transferring approved measurement
+                    specs to production floors, and resolving technical bottlenecks.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Education & Professional Skills -->
+          <div class="tools-education-col">
+            <!-- Education & Certifications Box -->
+            <div class="certifications-box glass-card">
+              <span class="section-eyebrow">ACADEMIC & PROFESSIONAL CREDENTIALS</span>
+              <h2 class="block-title">EDUCATION & CERTIFICATIONS</h2>
+              <div class="cert-list">
+                <div class="cert-item">
+                  <div class="cert-icon-circle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" />
+                    </svg>
+                  </div>
+                  <div class="cert-details">
+                    <h3 class="cert-title">H&M Quality Assurance Certificate</h3>
+                    <span class="cert-meta">Official Nominated QA Certification — H&M</span>
+                  </div>
+                </div>
+
+                <div class="cert-item">
+                  <div class="cert-icon-circle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z" />
+                    </svg>
+                  </div>
+                  <div class="cert-details">
+                    <h3 class="cert-title">Certificate in Apparel Technocrats</h3>
+                    <span class="cert-meta">Brandix College of Clothing Technology (BCCT)</span>
+                  </div>
+                </div>
+
+                <div class="cert-item">
+                  <div class="cert-icon-circle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
+                    </svg>
+                  </div>
+                  <div class="cert-details">
+                    <h3 class="cert-title">Garment Industrial Management Course</h3>
+                    <span class="cert-meta">Garment Industry Management Institute (GIMI)</span>
+                  </div>
+                </div>
+
+                <div class="cert-item">
+                  <div class="cert-icon-circle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" />
+                    </svg>
+                  </div>
+                  <div class="cert-details">
+                    <h3 class="cert-title">Quality Controlling</h3>
+                    <span class="cert-meta">University of Moratuwa, Sri Lanka</span>
+                  </div>
+                </div>
+
+                <div class="cert-item">
+                  <div class="cert-icon-circle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z" />
+                    </svg>
+                  </div>
+                  <div class="cert-details">
+                    <h3 class="cert-title">Secondary Education</h3>
+                    <span class="cert-meta">Rahula College — Matara, Sri Lanka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Professional Skills Box -->
+            <div class="tools-box glass-card">
+              <span class="section-eyebrow">COMPETENCIES</span>
+              <h2 class="block-title">PROFESSIONAL SKILLS</h2>
+              <div class="tools-grid">
+                <div class="tool-pill">
+                  <span class="tool-badge-icon">✂️</span>
+                  <span class="tool-title">Pattern Construction</span>
+                </div>
+                <div class="tool-pill">
+                  <span class="tool-badge-icon">📐</span>
+                  <span class="tool-title">Size Grading & Fit</span>
+                </div>
+                <div class="tool-pill">
+                  <span class="tool-badge-icon">📋</span>
+                  <span class="tool-title">Tech Pack Review</span>
+                </div>
+                <div class="tool-pill">
+                  <span class="tool-badge-icon">💻</span>
+                  <span class="tool-title">MS Office Package</span>
+                </div>
+                <div class="tool-pill">
+                  <span class="tool-badge-icon">🤝</span>
+                  <span class="tool-title">Interpersonal Skills</span>
+                </div>
+                <div class="tool-pill">
+                  <span class="tool-badge-icon">👥</span>
+                  <span class="tool-title">Team Leadership</span>
+                </div>
+                <div class="tool-pill">
+                  <span class="tool-badge-icon">⏱️</span>
+                  <span class="tool-title">Tight Deadlines</span>
+                </div>
+                <div class="tool-pill">
+                  <span class="tool-badge-icon">🔍</span>
+                  <span class="tool-title">Final Inspections</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Technical Workflow / Process Section -->
+    <section class="process-section" id="process">
+      <div class="section-shell">
+        <div class="process-card-shell glass-card">
+          <div class="block-header">
+            <span class="section-eyebrow">METHODOLOGY</span>
+            <h2 class="block-title">MY TECHNICAL WORKFLOW</h2>
+          </div>
+          <div class="process-steps-track">
+            <div class="process-step">
+              <div class="step-num">01</div>
+              <h3 class="step-name">TECH PACK REVIEW</h3>
+              <p class="step-desc">Thorough analysis of buyer tech packs, grading rules, and measurement tolerances.</p>
+              <div class="step-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                  <polyline points="14 2 14 8 20 8" />
+                </svg>
+              </div>
+            </div>
+
+            <div class="process-connector">
+              <svg width="24" height="12" viewBox="0 0 24 12" fill="none">
+                <path d="M0 6H20M20 6L15 1M20 6L15 11" stroke="rgba(255,255,255,0.25)" stroke-width="1.8"
+                  stroke-dasharray="2 3" />
+              </svg>
+            </div>
+
+            <div class="process-step">
+              <div class="step-num">02</div>
+              <h3 class="step-name">PATTERN & SAMPLE CHECK</h3>
+              <p class="step-desc">Audit pattern construction, cutting precision, and verify sample against buyer
+                criteria.</p>
+              <div class="step-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <circle cx="12" cy="12" r="6" />
+                  <circle cx="12" cy="12" r="2" />
+                </svg>
+              </div>
+            </div>
+
+            <div class="process-connector">
+              <svg width="24" height="12" viewBox="0 0 24 12" fill="none">
+                <path d="M0 6H20M20 6L15 1M20 6L15 11" stroke="rgba(255,255,255,0.25)" stroke-width="1.8"
+                  stroke-dasharray="2 3" />
+              </svg>
+            </div>
+
+            <div class="process-step">
+              <div class="step-num">03</div>
+              <h3 class="step-name">MODEL FIT SESSIONS</h3>
+              <p class="step-desc">Conduct live fitting sessions with models, evaluate comfort, drape, and incorporate
+                feedback.</p>
+              <div class="step-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 19l7-7 3 3-7 7-3-3z" />
+                  <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
+                </svg>
+              </div>
+            </div>
+
+            <div class="process-connector">
+              <svg width="24" height="12" viewBox="0 0 24 12" fill="none">
+                <path d="M0 6H20M20 6L15 1M20 6L15 11" stroke="rgba(255,255,255,0.25)" stroke-width="1.8"
+                  stroke-dasharray="2 3" />
+              </svg>
+            </div>
+
+            <div class="process-step">
+              <div class="step-num">04</div>
+              <h3 class="step-name">PP MEETING & ALIGNMENT</h3>
+              <p class="step-desc">Meet with merchandisers, QC leaders, and workshop technicians to finalize production
+                procedure.</p>
+              <div class="step-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+            </div>
+
+            <div class="process-connector">
+              <svg width="24" height="12" viewBox="0 0 24 12" fill="none">
+                <path d="M0 6H20M20 6L15 1M20 6L15 11" stroke="rgba(255,255,255,0.25)" stroke-width="1.8"
+                  stroke-dasharray="2 3" />
+              </svg>
+            </div>
+
+            <div class="process-step">
+              <div class="step-num">05</div>
+              <h3 class="step-name">FACTORY HANDOVER</h3>
+              <p class="step-desc">Issue approved measurement specifications, handover files, and ensure bulk run
+                excellence.</p>
+              <div class="step-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                  <polyline points="22 4 12 14.01 9 11.01" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Referees Section -->
+    <section class="referees-section" id="referees">
+      <div class="section-shell">
+        <div class="block-header">
+          <span class="section-eyebrow">ENDORSEMENTS</span>
+          <h2 class="section-title-large">INDUSTRY REFEREES</h2>
+        </div>
+        <div class="referees-grid">
+          <!-- Referee 1 -->
+          <div class="referee-card glass-card">
+            <div class="referee-badge">MAS INTIMATES</div>
+            <h3 class="referee-name">Mr. Anuka Jayarathna</h3>
+            <span class="referee-title">General Manager</span>
+            <span class="referee-org">MAS Intimates — Unichela (Pvt) Ltd</span>
+            <p class="referee-address">No 124, Horana Rd, Panadura</p>
+            <div class="referee-contact">
+              <a href="tel:+94773407646">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+                <span>+94 77 3407646</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Referee 2 -->
+          <div class="referee-card glass-card">
+            <div class="referee-badge">BRANDIX GROUP</div>
+            <h3 class="referee-name">Mr. Chandrawansha Bandara</h3>
+            <span class="referee-title">Quality Manager</span>
+            <span class="referee-org">Brandix Group</span>
+            <p class="referee-address">Sri Lanka</p>
+            <div class="referee-contact">
+              <a href="tel:+94773587634">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+                <span>+94 77 3587634</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Referee 3 -->
+          <div class="referee-card glass-card">
+            <div class="referee-badge">NORLANKA</div>
+            <h3 class="referee-name">Mr. Dulip Fernando</h3>
+            <span class="referee-title">Quality Assurance Manager</span>
+            <span class="referee-org">Norlanka Manufacturing Limited</span>
+            <p class="referee-address">Sri Lanka</p>
+            <div class="referee-contact">
+              <a href="tel:+94774001350">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+                <span>+94 77 4001350</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Luxury Call To Action Banner -->
+    <section class="cta-banner-section" id="contact">
+      <div class="section-shell">
+        <div class="cta-banner-card glass-card">
+          <div class="cta-banner-grid">
+            <div class="cta-col-left">
+              <div class="cta-sparkle-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2L14.4 9.6L22 12L14.4 14.4L12 22L9.6 14.4L2 12L9.6 9.6L12 2Z" />
+                </svg>
+              </div>
+              <h2 class="cta-banner-headline">LET'S CREATE<br>EXCEPTIONAL<br>GARMENTS</h2>
+            </div>
+
+            <div class="cta-col-mid">
+              <p class="cta-mid-text">Available for senior technical leadership, garment technology consultation, and
+                quality management roles.</p>
+              <a href="mailto:migarau82@gmail.com" class="cta-pill-button">
+                <span>CONNECT WITH MIGARA</span>
+                <span class="cta-arrow-box">↗</span>
+              </a>
+            </div>
+
+            <div class="cta-col-right">
+              <ul class="contact-details-list">
+                <li>
+                  <img src="assets/icon-envelope.svg" alt="Email" class="contact-3d-icon" />
+                  <a href="mailto:migarau82@gmail.com">migarau82@gmail.com</a>
+                </li>
+                <li>
+                  <img src="assets/icon-phone-ringing.svg" alt="Phone" class="contact-3d-icon" />
+                  <a href="tel:+94772532723">+94 77 2532723</a>
+                </li>
+                <li>
+                  <img src="assets/icon-location-pin.svg" alt="Location" class="contact-3d-icon" />
+                  <span>Homagama, Sri Lanka</span>
+                </li>
+                <li>
+                  <img src="assets/icon-house.svg" alt="Address" class="contact-3d-icon" />
+                  <span>675/3/2, Vihara Mawatha, Panagoda</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Luxury Footer Section -->
+    <footer class="footer-section">
+      <div class="section-shell">
+        <div class="footer-bar glass-card">
+          <span class="copyright">© 2026 H.H Migara Udayanaga. All Rights Reserved.</span>
+          <div class="social-connect">
+            <span class="connect-label">GARMENT TECHNOLOGY PORTFOLIO</span>
+            <div class="social-links">
+              <a href="mailto:migarau82@gmail.com" aria-label="Email" title="Email: migarau82@gmail.com">
+                <img src="assets/icon-envelope.svg" alt="Email" class="social-icon-3d" />
+              </a>
+              <a href="tel:+94772532723" aria-label="Phone" title="Phone: +94 77 2532723">
+                <img src="assets/icon-phone-ringing.svg" alt="Phone" class="social-icon-3d" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
